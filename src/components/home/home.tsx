@@ -21,13 +21,13 @@ const Home = () => {
   const recommendList = movies.filter((item) => item.isTrending !== true);
 
 
-  const handleSearch = (e: { target: { value: SetStateAction<string> } }) => {
-    setSearch(e.target.value);
-    const newList = movies.filter((movie) =>
-      movie.title.toLowerCase().includes(search.toLowerCase())
-    );
-    setSearchList(newList);
-  };
+  // const handleSearch = (e: { target: { value: SetStateAction<string> } }) => {
+  //   setSearch(e.target.value);
+  //   const newList = movies.filter((movie) =>
+  //     movie.title.toLowerCase().includes(search.toLowerCase())
+  //   );
+  //   setSearchList(newList);
+  // };
 
   return (
     <Layout>

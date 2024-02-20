@@ -1,4 +1,4 @@
-import { Box, Card, CardContent, Grid, Paper, Stack, Typography } from "@mui/material";
+import { Box, Card, CardContent, Grid, Stack, Typography } from "@mui/material";
 import { MovieDataType } from "../../assets/data";
 import BookmarkEmptyIcon from "../icons/bookmark-empy-icon";
 import BookmarkIcon from "../icons/bookmark-icon";
